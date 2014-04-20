@@ -3,3 +3,6 @@ all: hello.c
 
 test: hello
 	./hello
+
+clean: hello
+	rm hello
